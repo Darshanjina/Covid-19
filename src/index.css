@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: 'Alata', sans-serif;
+}
+
+.grad{
+  background: linear-gradient(to right, #3ca55c, #b5ac49);
+}
+
+.card{
+  box-shadow: -3px 3px 10px rgb(199, 199, 199);
+  border-bottom: 5px solid rgb(199, 199, 199);
+  transition: 0.5s;
+}
+
+.card:hover{
+  border-bottom: 5px solid #3ca55c;
+}
+
+.navicon{
+  height: 30px;
+  width: 30px;
+}
